@@ -1,14 +1,12 @@
 {
-  "name": "desafio-1",
+  "name": "desafio",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "dev": "nodemon",
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
